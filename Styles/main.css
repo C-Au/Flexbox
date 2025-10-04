@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This is key - makes parent at least full viewport height */
+  margin: 10; /* Remove default body margin */
+}
+
+.container-one {
+  display: flex;
+  height: 150px;
+  border: 2px solid black;
+  background-color: rgb(192, 236, 245);
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.container-two {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: rgb(250, 234, 181);
+  border: 2px solid black;
+  justify-content: top;
+  margin: 5px;
+  align-items: center;
+  height: 100rem;
+}
+
+.container-three {
+  display: flex;
+  /* width: 200px; */
+  flex: 4;
+  flex-direction: column;
+  height: 150px;
+  border: 2px solid black;
+  background-color: rgb(189, 250, 194);
+  justify-content: top;
+  margin: 5px;
+  height: 100rem;
+}
+
+.box-one {
+  width: 200px;
+  height: 125px;
+  margin: 9px;
+  border: 2px solid black;
+  background-color: rgb(114, 203, 233);
+}
+
+.box-two {
+  width: 400px;
+  height: 75px;
+  margin: 5px;
+  border: 2px solid black;
+  background-color: rgb(243, 220, 12);
+}

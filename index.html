@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout Challenge</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="container-one"> <!-- Parent -->
+        <div class="box-one"></div> <!-- child -->
+        <div class="box-one"></div> <!-- child -->
+        <div class="box-one"></div> <!-- child -->
+    </div>
+    <div style="display: flex;">
+        <div class="container-two"> <!-- Parent -->
+            <div class="box-two"></div> <!-- child -->
+            <div class="box-two"></div> <!-- child -->
+            <div class="box-two"></div> <!-- child -->
+            <div class="box-two"></div> <!-- child -->
+        </div>
+        <div class="container-three"> <!-- Parent -->
+            <div class="box-three-top">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> <!-- child -->
+            <div class="box-three-bottom">
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="background-color: aqua; flex: 1; height: 40px; margin: 1rem; border: 2px solid black;"></div>
+                    <div style="background-color: aqua; flex: 1; height: 40px; margin: 1rem; border: 2px solid black;"></div>
+                    <div style="background-color: aqua; flex: 3; height: 40px; margin: 1rem; border: 2px solid black;"></div>
+                    <div style="background-color: aqua; flex: 1; height: 40px; margin: 1rem; border: 2px solid black;"></div>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div> <!-- child -->
+        </div>
+    </div>
+</body>
+
+</html>
