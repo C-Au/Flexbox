@@ -65,6 +65,12 @@ body {
   width: 100%;
 }
 
+.box-six-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .box-one {
   width: 200px;
   height: 125px;
@@ -93,6 +99,14 @@ body {
   background-color: lightblue;
   flex: 1;
   height: 150px;
-  margin: 8px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.box-six {
+  background-color: lightblue;
+  flex: 1;
+  height: 150px;
+  margin: 10px;
   border: 2px solid black;
 }
