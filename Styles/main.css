@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   background-color: rgb(250, 234, 181);
   border: 2px solid black;
-  justify-content: top;
+  align-items: flex-start;
   margin: 5px;
   align-items: center;
   height: 100rem;
@@ -28,12 +28,10 @@ body {
 
 .container-three {
   display: flex;
-  flex: 4;
+  flex: 3;
   flex-direction: column;
-  height: 150px;
   border: 2px solid black;
   background-color: rgb(189, 250, 194);
-  justify-content: top;
   margin: 5px;
   height: 100rem;
 }
@@ -95,9 +93,25 @@ body {
   background-color: rgb(143, 231, 165);
 }
 
-.box-five {
+.box-five-type-a {
   background-color: lightblue;
-  flex: 1;
+  flex: 0.8;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.box-five-type-b {
+  background-color: lightblue;
+  flex: 1.5;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.box-five-type-c {
+  background-color: lightblue;
+  flex: 0.88;
   height: 150px;
   margin: 10px;
   border: 2px solid black;
@@ -110,3 +124,20 @@ body {
   margin: 10px;
   border: 2px solid black;
 }
+
+.box-six-type-a {
+  background-color: rgb(133, 205, 230);
+  flex: 1.5;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.box-six-type-b {
+  background-color: lightblue;
+  flex: 1;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
