@@ -62,6 +62,10 @@ body {
   justify-content: space-between;
 }
 
+.container-overall {
+  display: flex;
+}
+
 .box-five-row {
   display: flex;
   justify-content: space-between;
