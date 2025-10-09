@@ -57,6 +57,11 @@ body {
   margin: 5px;
 }
 
+.container-general {
+  display: flex;
+  justify-content: space-between;
+}
+
 .box-five-row {
   display: flex;
   justify-content: space-between;
@@ -140,4 +145,3 @@ body {
   margin: 10px;
   border: 2px solid black;
 }
-
